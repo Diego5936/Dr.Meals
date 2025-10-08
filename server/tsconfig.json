@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* === File Layout === */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* === Module / Environment === */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* === Node Type Definitions === */
+    "lib": ["ESNext"],
+    "types": ["node"],
+
+    /* === Output / Debugging === */
+    "sourceMap": true,
+    "declaration": false,
+
+    /* === Type Safety === */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* === Compatibility === */
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
